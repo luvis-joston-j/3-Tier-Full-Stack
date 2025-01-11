@@ -13,6 +13,6 @@ spec:
       labels:
         luv: jos
     spec:
-      conatainers:
+      containers:
           - name: con1
             image: luvisjostonj/3-tier:v1
