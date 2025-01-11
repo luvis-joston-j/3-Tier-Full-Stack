@@ -3,9 +3,9 @@ apiVersion: apps/v1
 metadata:
   name: mydep
 spec:
-  replicas: 3
-  matchLables:
-    selector:
+  replicas: 3 
+  selector:
+    matchLabels:
       luv: jos
   template:
     metadata:
