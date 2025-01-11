@@ -12,7 +12,7 @@ spec:
       name: joston
       lables:
         luv: jos
-  spec:
-     conatainers:
-        - name: con1
-          image: luvisjostonj/3-tier:v1
+    spec:
+      conatainers:
+          - name: con1
+            image: luvisjostonj/3-tier:v1
