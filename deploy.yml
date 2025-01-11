@@ -1,0 +1,18 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: mydep
+spec:
+  replicas: 3
+  matchLables:
+    selector:
+      luv: jos
+  template:
+    metadata:
+      name: joston
+      lables:
+        luv: jos
+  spec:
+     conatainers:
+        - name: con1
+          image: luvisjostonj/3-tier:v1
